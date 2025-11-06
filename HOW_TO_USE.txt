@@ -1,0 +1,48 @@
+EMPLOYEE PAYROLL MANAGEMENT SYSTEM
+=================================
+
+This system provides two implementations:
+1. Web-based version (recommended)
+2. C++ console version
+
+WEB VERSION (RECOMMENDED)
+=========================
+1. Simply open index.html in any modern web browser
+2. No installation or compilation required
+3. All data is stored in your browser's localStorage
+
+Features:
+- Dashboard with statistics and recent activities
+- Employee management (add, edit, delete, search)
+- Payroll processing with automatic calculations
+- Reporting with data visualization
+- Responsive design that works on all devices
+
+C++ VERSION
+===========
+1. Compile the program by running build.bat
+2. If compilation succeeds, run the program with run.bat
+3. If compilation fails due to missing compiler, use the web version
+
+Features:
+- Object-oriented design with Employee base class
+- Support for salaried and hourly employees
+- Payroll calculations with overtime
+- File-based data persistence
+- Command-line interface
+
+FILES IN THIS DIRECTORY
+=======================
+- index.html: Main web interface
+- styles.css: Styling for web interface
+- script.js: JavaScript functionality for web interface
+- Employee.h: C++ header file for Employee classes
+- Employee.cpp: C++ implementation for Employee classes
+- PayrollManager.h: C++ header file for PayrollManager class
+- PayrollManager.cpp: C++ implementation for PayrollManager class
+- main.cpp: Main C++ application file
+- build.bat: Batch file to compile C++ version
+- run.bat: Batch file to run C++ version
+- HOW_TO_USE.txt: This file
+
+For the best experience, use the web version by opening index.html in your browser.
